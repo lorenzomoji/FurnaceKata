@@ -1,8 +1,21 @@
 
 package org.lasencinas.furnacekata;
 
-public class HeaterChannel {
+import paquete.interfaces.Heater;
+
+public class HeaterChannel implements Heater { 
+        
+    public HeaterChannel() {
+        
+    }
     
+    @Override
+    public void engage() {
+        
+    } 
     
-    
+    @Override
+    public void disengage() {
+        
+    }
 }
