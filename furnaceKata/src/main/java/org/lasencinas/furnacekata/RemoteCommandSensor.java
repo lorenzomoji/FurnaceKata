@@ -1,8 +1,12 @@
 
 package org.lasencinas.furnacekata;
 
-public class RemoteCommandSensor {
+import paquete.interfaces.Heater;
+import paquete.interfaces.Thermometer;
+
+public class RemoteCommandSensor implements Thermometer {
     
-    
-    
+    public void read() {
+        
+    }
 }

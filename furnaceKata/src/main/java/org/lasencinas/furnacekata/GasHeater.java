@@ -1,6 +1,16 @@
 
 package org.lasencinas.furnacekata;
 
-public class GasHeater {
+import paquete.interfaces.Heater;
+
+public class GasHeater implements Heater {
+    
+    public void engage(RoomTemperature temperature) {
+        
+    }
+    
+    public void disengage(RoomTemperature temperature) {
+        
+    }
     
 }
