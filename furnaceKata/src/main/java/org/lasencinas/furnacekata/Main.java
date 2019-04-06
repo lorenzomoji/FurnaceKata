@@ -21,9 +21,9 @@ public class Main {
         System.out.println( "Arrancando..." );
         regulator.regulate(thermometer, heater, minTemp, maxTemp, temperature);
         
-        Jedi yoda = new Jedi();
+       /* Jedi yoda = new Jedi();
         System.out.println( "\nArrancando a Yoda: " );
         regulator.regulate(thermometer, yoda, minTemp, maxTemp, temperature);
-        yoda.speak();
+        yoda.speak(); */
     }
 }
