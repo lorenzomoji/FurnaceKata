@@ -7,6 +7,6 @@ import org.lasencinas.furnacekata.RoomTemperature;
 
 public interface Regulable {
     
-    void equilibrarTemperatura(RemoteCommandSensor rcs, GasHeater gh, RoomTemperature temperature);
+    void regulate(RemoteCommandSensor rcs, GasHeater gh, RoomTemperature temperature);
     
 }

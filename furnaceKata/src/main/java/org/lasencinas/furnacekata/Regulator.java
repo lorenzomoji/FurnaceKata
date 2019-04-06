@@ -10,7 +10,7 @@ public class Regulator implements Regulable {
     private double minTemperature = 15;
     private double maxTemperature = 22;
     
-    public void equilibrarTemperatura(RemoteCommandSensor rcs, GasHeater gh, RoomTemperature temperature) {
+    public void regulate(RemoteCommandSensor rcs, GasHeater gh, RoomTemperature temperature) {
         
         if(rcs.read(temperature) < minTemperature) {
             gh.engage(temperature);
