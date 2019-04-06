@@ -3,10 +3,18 @@ package org.lasencinas.furnacekata;
 
 public class RoomTemperature {
     
-    private int temperature = 0;
+    private double temperature = 0;
     
-    public RoomTemperature() {
-        
+    public RoomTemperature(double temperature) {
+        this.temperature = temperature;
+    }
+    
+    public void setTemperature(double temperature) {
+        this.temperature = temperature;
+    }
+    
+    public double getTemperature() {
+        return this.temperature;
     }
     
 }

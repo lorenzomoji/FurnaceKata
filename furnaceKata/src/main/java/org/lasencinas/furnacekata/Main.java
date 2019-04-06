@@ -2,6 +2,8 @@
 package org.lasencinas.furnacekata;
 
 import org.lasencinas.furnacekata.RoomTemperature;
+import paquete.interfaces.Heater;
+import paquete.interfaces.Thermometer;
 
 
 public class Main {

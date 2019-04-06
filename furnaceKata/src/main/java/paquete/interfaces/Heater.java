@@ -1,12 +1,12 @@
 
 package paquete.interfaces;
 
+import org.lasencinas.furnacekata.RoomTemperature;
+
 public interface Heater {
     
-    boolean encender =  false;
+    void engage(RoomTemperature temperature);
     
-    void engage();
-    
-    void disengage();
+    void disengage(RoomTemperature temperature);
     
 }
