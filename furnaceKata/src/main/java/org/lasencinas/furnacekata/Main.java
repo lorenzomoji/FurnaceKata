@@ -1,6 +1,9 @@
 
 package org.lasencinas.furnacekata;
 
+import org.lasencinas.furnacekata.RoomTemperature;
+
+
 public class Main {
     
     public static void main (String[] args) {
