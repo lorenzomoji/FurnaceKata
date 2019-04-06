@@ -17,4 +17,8 @@ public class RoomTemperature {
         return this.temperature;
     }
     
+    public void incrementTemperature(double increment) {
+        this.temperature += increment; 
+    }
+    
 }

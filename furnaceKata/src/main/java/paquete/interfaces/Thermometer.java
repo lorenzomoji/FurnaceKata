@@ -1,8 +1,10 @@
 
 package paquete.interfaces;
 
+import org.lasencinas.furnacekata.RoomTemperature;
+
 public interface Thermometer {
     
-    void read();
+    double read(RoomTemperature temperature);
     
 }

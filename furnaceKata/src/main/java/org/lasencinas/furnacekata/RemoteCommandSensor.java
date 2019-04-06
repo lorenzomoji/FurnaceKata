@@ -6,7 +6,8 @@ import paquete.interfaces.Thermometer;
 
 public class RemoteCommandSensor implements Thermometer {
     
-    public void read() {
+    public double read(RoomTemperature temperature) {
         
+        return temperature.getTemperature();
     }
 }
